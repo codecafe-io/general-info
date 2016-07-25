@@ -7,9 +7,11 @@ cd general-info
 <add files etc...>
 
 git add *
+git reset
+git reset <filename>
+
 git commit
 git push orgin master
-
 
 git checkout -b <branch name> (Create new branch and switch to it)
 git commit -a -m "add new detail"
