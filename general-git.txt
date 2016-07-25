@@ -1,0 +1,21 @@
+git config user.name codecafe-io
+git config user.email codecafe.io@gmail.com
+git init
+git clone https://github.com/codecafe-io/general-info
+git remote set-url origin git@github.com:codecafe-io/aws-misc.git
+cd general-info
+<add files etc...>
+
+git add *
+git commit
+git push orgin master
+
+
+git checkout -b <branch name> (Create new branch and switch to it)
+git commit -a -m "add new detail"
+git checkout master
+git merge <branch name>
+git branch -d <branch name> (Delete branch)
+
+git status
+
