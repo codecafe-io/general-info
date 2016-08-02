@@ -21,3 +21,4 @@ git branch -d <branch name> (Delete branch)
 
 git status
 git remote show origin
+git log
